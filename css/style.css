@@ -19,3 +19,19 @@ img{
 
 }
 
+.gauche{
+    background-color: blue;
+    color: white;
+    
+}
+
+.centre{
+    background-color: white;
+    color: black;
+}
+
+.droite{
+    background-color:red;
+    color: white;
+}
+
