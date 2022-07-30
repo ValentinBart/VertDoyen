@@ -18,3 +18,35 @@ img{
     height: auto;
 }
 
+.liste{
+    max-width: 60%;
+}
+
+.bas{
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 640px) {
+
+
+    .bas {
+            text-align: center;
+            width: 100%;
+            border: solid;
+            background-color: green;
+            min-height: 100%;
+            color: white;
+            min-height: 200px;
+            line-height: 50px;
+
+        }
+    
+    .haut, .main{
+        width: 100%;
+        text-align: center;
+                
+    }
+
+
+ 
+    }
