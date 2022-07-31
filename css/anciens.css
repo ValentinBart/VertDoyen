@@ -1,0 +1,43 @@
+body{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.main{
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+
+
+    .bas {
+            text-align: center;
+            width: 100%;
+            border: solid;
+            background-color: green;
+            min-height: 100%;
+            color: white;
+            min-height: 200px;
+            line-height: 50px;
+
+        }
+    
+    .haut {
+            width: 100%;
+            text-align: center;
+                    
+         }
+
+
+    }
