@@ -26,6 +26,23 @@ img{
     margin-top: 20px;
 }
 
+.bourg-palette{
+    background-color: blue;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.lavanville, .ratonville{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.miaoussBourg{
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+}
+
 @media screen and (min-width: 640px) {
 
 
@@ -47,6 +64,9 @@ img{
                 
     }
 
+    .liste{
+        max-width: 300px;
+    }
 
  
     }
