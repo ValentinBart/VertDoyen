@@ -1,0 +1,64 @@
+body{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.bas{
+    margin-top: 20px;
+}
+
+.gauche{
+    background-color: blue;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.centre{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.droite{
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 640px) {
+
+
+    .bas {
+            text-align: center;
+            width: 100%;
+            border: solid;
+            background-color: green;
+            min-height: 100%;
+            color: white;
+            min-height: 200px;
+            line-height: 50px;
+
+        }
+    
+    .haut, .main{
+        width: 100%;
+        text-align: center;
+                
+    }
+
+    .liste{
+        max-width: 300px;
+    }
+
+ 
+    }
