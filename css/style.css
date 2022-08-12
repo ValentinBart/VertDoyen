@@ -40,7 +40,9 @@ img{
     body{
 
         background-image: url("../ressources/foret-2.jpg");
-    }
+        background-repeat : no-repeat;
+        background-size: cover;
+    }   
 
     .bas {
             text-align: center;

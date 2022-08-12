@@ -8,6 +8,12 @@ body{
     text-align: center;
 }
 
+.main{
+    
+    background-color: rgb(214, 230, 212);
+
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -45,7 +51,12 @@ img{
 
 @media screen and (min-width: 640px) {
 
+    body{
 
+        background-image: url("../ressources/foret-2.jpg");
+        background-repeat : no-repeat;
+        background-size: cover;
+    }   
     .bas {
             text-align: center;
             width: 100%;

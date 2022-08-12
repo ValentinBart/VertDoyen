@@ -16,10 +16,17 @@ img{
 .main{
     text-align: center;
     width: 100%;
+    background-color: rgb(214, 230, 212);
 }
 
 @media screen and (min-width: 640px) {
 
+    body{
+
+        background-image: url("../ressources/foret-2.jpg");
+        background-repeat : no-repeat;
+        background-size: cover;
+    }
 
     .bas {
             text-align: center;
@@ -38,6 +45,10 @@ img{
             text-align: center;
                     
          }
+    .centre{
+        background-color: white;
+
+    }
 
 
     }
